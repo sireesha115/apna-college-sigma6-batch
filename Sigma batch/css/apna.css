@@ -1,0 +1,49 @@
+.upvote{
+    background-color: green;
+    color:aliceblue;
+}
+p a{
+    color:blueviolet;
+}
+nav ul li a{
+    color:chartreuse;
+} 
+p+h3{
+    text-decoration: underline;
+}
+.upvote+button{
+    background-color: aqua;
+}
+div>input{
+    background-color: burlywood;
+}
+input[type="password"]{
+    color:blueviolet;
+}
+input[type="text"]{
+    color:aqua;
+}
+/* #myid p{
+    background-color: yellowgreen;
+} */
+ div[id="myid"] p{
+    background-color: yellow;
+ }
+ button:hover{
+    background-color:black;
+    color:white;
+ }
+ h3:hover{
+    text-decoration:none ;
+ }
+ button:active{
+    background-color: palevioletred;
+ }
+ p:active{
+    color:green;
+    font-weight: bold;
+ }
+ input[type="radio"]:checked +label{
+    color:violet;
+    font-weight: bold;
+ }

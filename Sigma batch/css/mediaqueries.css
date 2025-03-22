@@ -1,0 +1,43 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+@media (width:400px) {
+    h1{
+        background-color: red;
+        color: white;
+    }
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+    }
+}
+@media(min-width:401px){
+    h1{
+        background-color: rgb(255, 251, 0);
+        color: rgb(156, 35, 35);
+    }
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(255, 0, 174);
+    }
+}
+@media(max-width:399px){
+    h1{
+        background-color: rgb(244, 6, 58);
+        color: rgb(176, 250, 3);
+    }
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(13, 162, 231);
+    }
+}
+@media(orientation:landscape){
+    h1{
+        background-color: aqua;
+        color: maroon;
+    }
+}

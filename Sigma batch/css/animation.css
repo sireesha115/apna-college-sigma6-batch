@@ -1,0 +1,53 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: palevioletred;
+    /* animation-name: width;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    /* animation: width 5s ease-in 0s infinite normal; */
+    animation: percentage 5s ease-in 0s infinite normal;
+}
+@keyframes percentage{
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: green;
+
+    }
+    100%{
+        background-color: blue;
+    }
+}
+@keyframes width 
+{
+ from{
+    width: 10px;
+    background-color: rgb(127, 47, 255);
+ }   
+ to{
+    width: 500px;
+    background-color: goldenrod ;
+    border-radius: 5%;
+ }
+}
+@keyframes fontanimation{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+@keyframes coloranimation{
+    from{
+        background-color: rgb(127, 47, 255);
+    }
+    to{
+        background-color: goldenrod ;
+    }
+}
