@@ -1,0 +1,16 @@
+ .headings{
+    text-decoration: dotted;
+ }
+ .container-md{
+    background-color: aquamarine;
+ }
+ .mybutton{
+    border-radius: 2%;
+    border: 2px solid blue;
+
+}
+.mybutton:hover{
+    background-color: blue;
+    color: white;
+    
+}
