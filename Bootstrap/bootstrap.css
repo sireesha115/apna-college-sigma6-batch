@@ -1,5 +1,8 @@
  .headings{
     text-decoration: dotted;
+    border: 2px solid black;
+    border-radius: 3%;
+    width: 150px;
  }
  .container-md{
     background-color: aquamarine;
@@ -13,4 +16,7 @@
     background-color: blue;
     color: white;
     
+}
+#bootstraplink{
+   text-decoration: none;
 }
